@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.game {
+    background-image: url(../images/bg.jpg);
+    background-size: 100% 100%;
+    width: 500px;
+    height: 100%;
+    margin: 0 auto;
+}
+.main-container {
+    position: absolute;
+    bottom: 0px;
+    width: 500px;
+    height: 500px;
+}
+.main-container .unit {
+    width: 50px;
+    position: absolute;
+    background-size: 47px 47px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-container .baby {
+    position: absolute;
+    z-index: 900;
+}
+.dialog {
+    top:0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+.start-dialog {
+    position: absolute;
+    left: 20%;
+    width: 300px;
+    height: 700px;
+    margin: auto;
+    background: url('/images/start.png') center center no-repeat;
+}
+.end-dialog {
+    position: absolute;
+    left: 10%;
+    width: 400px;
+    height: 588px;
+    margin: auto;
+    text-align: center;
+}
+.end-dialog .result {
+    box-sizing: border-box;
+    width: 400px;    
+    height: 450px;
+    background-size: 80% 30%;
+    background-repeat: no-repeat;
+    background-position: center 280px;
+    background-image: url('/images/messageFrame.png');
+    text-align: center;
+    font-size: 22px;
+    padding-top: 320px;
+}
+.end-dialog .action {
+    display: inline-block;
+    width: 185px;
+    height: 98px;
+    background-size: 185px 98px;
+    word-spacing: 10px;
+}
+.happy {
+    background: url('/images/baby.png');
+    width: 60px;
+    height: 93px;
+}
+.caught {
+    background: url('/images/caught.png');
+    width: 64px;
+    height: 91px;
+}

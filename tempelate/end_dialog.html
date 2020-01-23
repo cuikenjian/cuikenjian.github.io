@@ -1,0 +1,16 @@
+<div class="dialog scale-y-center">
+    <div class="end-dialog">
+        <div class="result" ng-style="style">
+            <div ng-show="result.state==='fail'">
+                You didn't catch the baby </br>
+                <strong>Your wife is gonna kill you！</strong>
+            </div>
+            <div ng-show="result.state==='success'">
+                congratulations! you used only </br>
+                {{result.steps}} steps to get the baby</br>
+            </div>
+
+        </div>
+        <a class="action" style="background-image:url(images/again.png);"></a>
+    </div>
+</div>
