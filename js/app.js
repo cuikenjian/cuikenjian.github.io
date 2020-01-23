@@ -1,0 +1,1 @@
+angular.module('catchBaby', ['catchBaby.factories', 'catchBaby.controllers', 'catchBaby.directives']);
